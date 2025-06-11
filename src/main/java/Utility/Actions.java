@@ -14,7 +14,7 @@ public class Actions
     {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
+        //options.addArguments("--headless");
        // DesiredCapabilities desiredCapabilities=new DesiredCapabilities();
       //  desiredCapabilities.setCapability(ChromeOptions.CAPABILITY, options);
         driver=new ChromeDriver(options);
